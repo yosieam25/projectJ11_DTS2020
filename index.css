@@ -3,7 +3,7 @@
 }
 header{
     width:100%;
-    background-color: #F0EFFF;
+    background-color: #E3E1FF;
     height:50px;
     position: sticky;
     top: 0;
@@ -67,12 +67,12 @@ header h1{
 }
 .service_title{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 .content_service{
     display: flex;
     margin-left: 30px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 .service{
     background-color:white;
@@ -80,7 +80,42 @@ header h1{
     margin-right: 30px;
     border-radius: 30px;
     text-align: center;
+    padding-bottom: 40px;
 }
 .service p{
     padding-top: 10px;
+    font-size: 20px;
+}
+.tools{
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+}
+.tools img{
+    margin-right: 10px;
+}
+.team_wrapper{
+    padding-bottom: 60px;
+}
+.content_team{
+    display: flex;
+    margin-top: 50px;
+    width:100%;
+}
+.team{
+    text-align: center;
+    width:20%;
+}
+.team h1{
+    padding-top: 20px;
+}
+.team img{
+    background-color: #F0EFFF ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 100%;
+}
+.contact_wrapper{
+    background-color: #F0EFFF ;
+    width:100%;
 }
