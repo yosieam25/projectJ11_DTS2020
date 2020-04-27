@@ -1,0 +1,60 @@
+@media (max-width:1000px){
+    .top_title{
+        margin-top: 200px;
+    }
+    .top_title h1{
+        font-size: 30px;
+    }
+    .top_title p{
+        font-size: 30px;
+    }
+    .top_title a{
+        font-size: 10px;
+    }
+    .top_image{
+        float: right;
+        width:50vw;
+        height:600px;
+    }
+    .top_image img{
+        width:50vw;
+        height:600px;
+        padding-right: 80px;
+        padding-bottom: 80px;
+    }
+    .service img{
+        width:30vw;
+        height:300px;
+    }
+    .service h1{
+        font-size: 25px;
+    }
+    .service p{
+        font-size:20px;
+    }
+    .content_item{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .team{
+        width:50%;
+        margin-top: 30px;
+    }
+    .team h1{
+        font-size: 20px;
+    }
+    .message_image img{
+        width:30vw;
+        height:530px;
+    }
+    form{
+        margin-right: 30px;
+    }
+    form input{
+        width:40vw;
+    }
+    form textarea{
+        width:40vw;
+    }
+}

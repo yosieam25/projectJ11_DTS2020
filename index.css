@@ -1,5 +1,6 @@
 *{
-    margin:0
+    margin:0;
+    box-sizing: border-box;
 }
 header{
     width:100%;
@@ -60,6 +61,11 @@ header h1{
     height:500px;
     padding-right: 40px;
 }
+.top_image img{
+        width:700px;
+        height:500px;
+        padding-top:50px;
+    }
 .service_wrapper{
     background-color: #F0EFFF ;
     width:100%;
@@ -86,6 +92,10 @@ header h1{
     padding-top: 10px;
     font-size: 20px;
 }
+.service img{
+    width:300px;
+    height: 300px;
+}
 .tools{
     float: left;
     width: 100%;
@@ -99,6 +109,7 @@ header h1{
 }
 .content_team{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
     width:100%;
 }
@@ -118,4 +129,66 @@ header h1{
 .contact_wrapper{
     background-color: #F0EFFF ;
     width:100%;
+    padding-bottom: 30px;
+}
+.message_image{
+    float: left;
+    padding-left: 80px;
+}
+.message_image img{
+    width:530px;
+    height:530px;
+}
+form{
+    float: right;
+    margin-top: 30px;
+    margin-right: 80px;
+
+}
+form h3{
+    padding-bottom: 10px;
+}
+form input{
+    width:500px;
+    height:50px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+input[type="email"]:focus {
+    outline: none;
+}
+input[type="submit"]:focus {
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+form textarea{
+    width:500px;
+    height:100px;
+    border-radius: 30px;
+    border: 1px solid black;
+    padding-left: 30px;
+    padding-top:10px;
+}
+.clear{
+    clear: left;
+}
+.submit{
+    cursor: pointer;
+    margin-top: 10px;
+}
+.submit:hover{
+    background-color: #B5B0FF ;
+}
+footer{
+    height:80px;
+    padding-top: 30px;
+    text-align: center;
 }
