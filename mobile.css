@@ -65,4 +65,10 @@
     footer h2{
         font-size: 5vw;
     }
+    header span{
+        float:right;
+        margin-top:18px;
+        margin-right:20px;
+        font-size: 30px;
+    }
 }
