@@ -2,6 +2,9 @@
     .header_list{
         display:none;
     }
+    .menu{
+        display:block;
+    }
     .top_title{
         margin-left:0;
         width:100%;
@@ -66,9 +69,6 @@
         font-size: 5vw;
     }
     header span{
-        float:right;
-        margin-top:18px;
-        margin-right:20px;
-        font-size: 30px;
+        
     }
 }

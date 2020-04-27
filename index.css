@@ -9,6 +9,13 @@ header{
     position: sticky;
     top: 0;
 }
+.menu{
+    float:right;
+    margin-top:10px;
+    margin-right:20px;
+    font-size: 30px;
+    display:none;
+}
 header h1{
     float: left;
     line-height: 50px;
@@ -191,7 +198,4 @@ footer{
     height:80px;
     padding-top: 30px;
     text-align: center;
-}
-header span{
-    display:none;
 }
