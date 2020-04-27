@@ -27,12 +27,13 @@
         width:100%;
         display: flex;
         flex-wrap: wrap;
-        padding-right: 30px;
         position: absolute;
+        margin-left: 0;
     }
     .service{
         width:100%;
         margin-bottom:30px;
+        margin-left: 30px;
     }
     .service img{
         width:40vw;
@@ -54,12 +55,14 @@
     form{
         float: none;
         margin-left: 30px;
-        margin-right: 30px;
     }
     form input{
         width:100%;
     }
     form textarea{
         width:100%;
+    }
+    footer h2{
+        font-size: 5vw;
     }
 }
